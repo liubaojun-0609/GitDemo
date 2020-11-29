@@ -5,6 +5,9 @@ public class Person {
     private String addr;
     private Integer age;
 
+    public Person() {
+    }
+
     public String getName() {
         return name;
     }
