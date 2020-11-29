@@ -5,6 +5,12 @@ public class Person {
     private String addr;
     private Integer age;
 
+    public Person(String name, String addr, Integer age) {
+        this.name = name;
+        this.addr = addr;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
