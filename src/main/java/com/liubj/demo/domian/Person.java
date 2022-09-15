@@ -8,11 +8,10 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, String addr, Integer age) {
-        this.name = name;
-        this.addr = addr;
-        this.age = age;
-    }
+    /**
+     * 删除源代码   测试Git
+     * @return
+     */
 
     public String getName() {
         return name;
